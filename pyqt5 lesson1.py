@@ -8,6 +8,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QMessageBox, QCo
 winMain = uic.loadUiType("homeScreen.ui") [0]
 win2 = uic.loadUiType("InfoOutput.ui") [0]
 
+print("Testing GIT changes")
 class HomeScreen(QtWidgets.QMainWindow, winMain): #imports the PyQT 'main window' functionality, winMain links to UI screens above
 
 	def __init__(self, parent = None):
